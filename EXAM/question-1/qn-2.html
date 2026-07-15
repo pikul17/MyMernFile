@@ -1,0 +1,39 @@
+<!-- create a simple web page with a button that change  the text when click -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Text Example</title>
+  <style>
+    body{
+        text-align: center;
+        font-size: large;
+    }
+    h1{
+        color: green;
+    }
+    button{
+        background-color: palevioletred;
+    }
+    footer{
+        color: solid red;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1 id="message">Hello, Iam Nrusingha Barik!</h1>
+
+  <button onclick="changeText()">Click Me</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("message").textContent = "HAVE A GOOD DAY!";
+    }
+  </script>
+  <footer>This function works only one time</footer>
+
+</body>
+</html>

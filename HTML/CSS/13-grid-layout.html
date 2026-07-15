@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        .container{
+            display: grid;
+           /* grid-template-columns: 100px 200px 300px; */
+          /* grid-template-columns: 1fr 2fr 3fr; */
+          grid-template-columns:repeat(4,1fr);
+          grid-gap:10px;
+          /* grid-auto-rows:minmax(20px,auto) ;  */
+          /* grid-auto-columns: minmax(50px,auto); */
+          background-color: aqua;
+        }
+        .items{
+            background-color: lightcoral;
+            border: 3px solid green;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">box 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Repellat corporis eveniet cum! Eum ipsam odio earum eius possimus ex hic.
+              Quos voluptas voluptates explicabo libero tempore aliquid quas reprehenderit 
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis ducimus 
+              facilis cumque veritatis voluptatum dolores. Saepe alias tenetur delectus, eligendi 
+              ab id mollitia vitae,
+               dolorem repellendus magni veritatis deserunt! repudiandae.</div>
+        <div class="items">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+        <div class="items">box 6</div>
+    </div>
+</body>
+</html>

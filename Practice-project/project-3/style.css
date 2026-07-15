@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+/* navigation  */
+
+nav {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 10px;
+    z-index: 50;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bar_icon {
+    font-size: 32px;
+}
+
+/* hero section  */
+
+.hero {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tag {
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: white;
+    align-self: flex-start;
+}
+
+.hero_content h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.explore_btn {
+    background-color: #ffc066;
+    align-self: flex-start;
+}
+
+/* features section  */
+
+.features {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.feature img {
+    width: 72px;
+}
+
+.feature:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
