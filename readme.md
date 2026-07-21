@@ -1015,6 +1015,35 @@ City : Bhubaneswar
 
 expected output -> App -> MessageBox
 
+React Hooks :-
+
+- Hooks allow functions to have access to state & other react features without using classes.
+- they provide direct API  to react concept like props, state,context etc......
+- Basically Hooks is a function that let us "Hook into" react state & lifecycle feature
+
+
+1. useState()
+2. use
+
+
+1. useState() Hook in react ->
+- the react useState() hook allows us to track the state of a function component.
+- state generally refers to data or properties that need to be tracking in an application.
+import useState ->
+
+import {useState} from 'react'
+
+initialize useState ->
+
+- we initialize our state by calling useState in our function component.
+- useState accepts an initial state & return two value.
+
+      1. the current state
+      2. a function that updates the state
+
+      syntax :->const [state, setState] = useState("initial value")
+
+      ex -> const [color, setState] = useState("red")
 
     
 
